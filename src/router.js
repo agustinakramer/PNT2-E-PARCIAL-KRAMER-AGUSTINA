@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import TextProcessorView from './views/TextProcessorView.vue';
-import MultipleChoiceView from './views/MultipleChoiceView.vue';
+import VistaProcesadorTexto from './views/VistaProcesadorTexto.vue';
+import VistaMultipleChoice from './views/VistaMultipleChoice.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'textProcessor',
-    component: TextProcessorView
+    name: 'procesadorTexto',
+    component: VistaProcesadorTexto
   },
   {
     path: '/questions',
     name: 'multipleChoice',
-    component: MultipleChoiceView
+    component: VistaMultipleChoice
   }
 ];
 

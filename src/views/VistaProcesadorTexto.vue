@@ -1,16 +1,16 @@
 <template>
   <div>
     <h1 class="display-4">Procesador de Texto</h1>
-    <TextProcessor />
+    <ProcesadorTexto />
   </div>
 </template>
 
 <script>
-import TextProcessor from '../components/TextProcessor.vue';
+import ProcesadorTexto from '../components/ProcesadorTexto.vue';
 
 export default {
   components: {
-    TextProcessor
+    ProcesadorTexto
   }
 };
 </script>
